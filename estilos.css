@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#F69B0C, #EB4E00);
+}
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(0,0,0, .5);
+    border-radius: 10px;
+}
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Acme';
+}
+
+ .elemento button[type="button"]{
+    background-color: #f6910c;
+    border: none;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+    cursor: pointer;
+    padding: 10px;
+    margin-top:20px ;
+    font-family: 'Acme';
+    font-weight: bold;
+}
+.elemento button:hover{
+
+    background-color: #cfc3b3f0;
+    padding: 10px;
+        margin-top:20px ;
+}
